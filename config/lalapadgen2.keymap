@@ -72,7 +72,7 @@
 &mt SLASH A        &mt LEFT_BRACKET S  &mt RIGHT_BRACKET D  &mt LEFT_BRACE F  &mt RIGHT_BRACE G                             &mt AT_SIGN H   &mt BACKSLASH J      &mt ASTERISK K       &mt QUESTION L     &mt UNDERSCORE MINUS
 &mt2 LEFT_SHIFT Z  &mt LC(C) X         &mt LC(V) C          &mt LESS_THAN V   &mt GREATER_THAN B                            &mt SQT N       &mt DOUBLE_QUOTES M  &mt TILDE COMMA      &mt DOLLAR PERIOD  &mt SEMI COLON
 &kp LCTRL          &kp LWIN            &kp LEFT_ALT         &lt 1 LANG2       &kp SPACE           &lt 3 TAB  &kp BACKSPACE  &kp ENTER       &lt 2 LANG1          &mt LC(GRAVE) EQUAL  &kp PRINTSCREEN    &lt 3 DELETE
-                   &kp LC(EQUAL)       &kp LC(PLUS)         &kp DOWN          &kp LC(MINUS)       &kp UP     &kp UP         &kp LEFT        &kp DOWN             &kp RIGHT            &none
+                   &kp LC(NUMBER_0)    &kp LC(PLUS)         &kp DOWN          &kp LC(MINUS)       &kp UP     &kp UP         &kp LEFT        &kp DOWN             &kp RIGHT            &none
 &mkp LCLK          &mkp RCLK           &mkp MCLK                                                                                                                 &mkp LCLK            &mkp RCLK          &mkp MCLK
 &mkp MB4           &mkp MB5            &kp LG(TAB)          &kp LG(D)         &kp LCTRL                                     &mkp MB4        &mkp MB5             &kp LG(TAB)          &kp LG(D)          &kp LCTRL
             >;
