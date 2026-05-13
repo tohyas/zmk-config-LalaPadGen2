@@ -74,20 +74,20 @@
 &kp LCTRL          &kp LWIN            &kp LEFT_ALT         &lt 1 LANG2       &kp SPACE           &lt 3 TAB  &kp BACKSPACE  &kp ENTER       &lt 2 LANG1          &mt LC(GRAVE) EQUAL  &mt CARET PLUS     &lt 3 DELETE
                    &kp LC(NUMBER_0)    &kp LC(KP_PLUS)      &kp DOWN          &kp LC(MINUS)       &kp UP     &kp UP         &kp LEFT        &kp DOWN             &kp RIGHT            &none
 &mkp LCLK          &mkp RCLK           &mkp MCLK                                                                                                                 &mkp LCLK            &mkp RCLK          &mkp MCLK
-&mkp MB4           &mkp MB5            &kp LG(TAB)          &kp LG(D)         &kp LCTRL                                     &mkp MB4        &mkp MB5             &kp LG(TAB)          &kp LG(D)          &kp LCTRL
+&mkp MB4           &mkp MB5            &none                &none             &kp LCTRL                                     &mkp MB4        &mkp MB5             &none                &none              &kp LCTRL
             >;
         };
 
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4       &kp N5                             &kp KP_NUMLOCK    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
-&kp NUMBER_6      &kp N7             &kp N8        &kp N9             &kp N0                             &trans            &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
-&kp F6            &kp F7             &kp F8        &kp F9             &kp F10                            &trans            &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
-&trans            &trans             &trans        &trans             &trans   &trans           &kp DEL  &trans            &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
-                  &trans             &trans        &kp C_VOLUME_DOWN  &trans   &kp C_VOLUME_UP  &trans   &trans            &trans             &trans           &trans
-&trans            &trans             &trans                                                                                                   &trans           &trans           &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans        &trans             &trans                             &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans           &trans
+&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4       &kp N5                            &kp KP_NUMLOCK    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
+&kp NUMBER_6      &kp N7             &kp N8        &kp N9             &kp N0                            &trans            &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
+&kp F6            &kp F7             &kp F8        &kp F9             &kp F10                           &trans            &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
+&trans            &trans             &trans        &trans             &trans   &trans           &trans  &trans            &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
+                  &trans             &trans        &kp C_VOLUME_DOWN  &trans   &kp C_VOLUME_UP  &trans  &trans            &trans             &trans           &trans
+&trans            &trans             &trans                                                                                                  &trans           &trans           &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans        &trans             &trans                            &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans           &trans
             >;
         };
 
